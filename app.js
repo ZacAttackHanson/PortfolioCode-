@@ -33,6 +33,14 @@ app.get("/Thor", function(req, res){
    res.render("Contact"); 
 });
 
+app.get("/Ironman", function(req, res){
+   res.render("Skorekeeper"); 
+});
+
+
+
+
+
 app.listen(process.env.PORT, process.env.IP, function(){
     console.log("General Kenobi, You are a bold one!");
 })
