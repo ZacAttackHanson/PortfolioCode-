@@ -1,0 +1,31 @@
+body{background-color: black;
+margin:0;
+font-family: "arial";}
+
+button{ border: none; text-transform: uppercase; background: none; height: 100%; color: steelblue; transition: all 0.3s;}
+
+button:hover { color: white; background: steelblue; }
+
+
+.square {width:30%; background: pink; padding-bottom: 30%; float: left; margin:1.6%; border-radius: 50%; transition: background 0.4s}
+
+.Container {max-width: 600px;
+margin:30px auto;} 
+
+h1{
+text-align: center;
+	color: white;
+	background-color: steelblue;
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: normal;
+
+}
+
+
+
+#message{color: black; display: inline-block; width: 30%}
+
+#stripe{background-color: white; height: 30px; text-align: center;}
+
+.selected {background-color: steelblue; color: white}
