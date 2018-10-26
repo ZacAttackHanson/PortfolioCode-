@@ -41,8 +41,13 @@ app.get("/Spiderman", function(req, res){
    res.render("TodoListApp"); 
 });
 
+app.get("/StarLord", function(req, res){
+   res.render("ImageGallery"); 
+});
 
-
+app.get("/GreenLantern", function(req, res){
+   res.render("bearfinder"); 
+});
 
 
 
